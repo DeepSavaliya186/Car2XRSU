@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@android:color/white"
+    android:elevation="6dp">
+
+    <TextView
+        android:id="@+id/infoSpeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Speed:"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/infoDistance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Distance:"
+        android:textSize="14sp"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/infoHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Heading:"
+        android:textSize="14sp"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/infoWarning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status:"
+        android:textSize="14sp"
+        android:textColor="@android:color/black" />
+
+</LinearLayout>
